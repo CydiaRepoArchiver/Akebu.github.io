@@ -64,11 +64,13 @@ function getURL(){
 	bundleID = $.QueryString['c'];		// Load changelog
 	if(bundleID != undefined){
 		URL = bundleID + "/changelog.js";
+		document.title = "Changelogs"
 		return URL;
 	}
 	bundleID = $.QueryString['s'];		// Load screenshot
 	if(bundleID != undefined){
 		URL = bundleID + "/screenshot.js";
+		document.title = "Screenshots"
 		return URL;
 	}
 }
