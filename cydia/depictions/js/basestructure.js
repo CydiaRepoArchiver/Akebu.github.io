@@ -39,19 +39,19 @@ function gotoURL(url)
 
 function addButton(title, ref)
 {
-	$('<div onClick=window.location.href("https://www.google.fr") class="buttonView"><h1 class="titre-button">'+title+'<img class="chevron" src="images/chevron.png"></h1></div>').appendTo('#mainView');
+	$('<a href="'+ref+'" class="buttonView"><h1 class="titre-button">'+title+'<img class="chevron" src="images/chevron.png"></h1></a>').appendTo('#mainView');
 }
 
 function addScreenshotButton(){
 	var bundleID = $.QueryString['p'];
 	var URL = "?s="+bundleID
-	$('<div onClick=window.location.href("https://www.google.fr") class="buttonView"><h1 class="titre-button">Screenshots<img class="chevron" src="images/chevron.png"></h1></div>').appendTo('#mainView');
+	$('<a href="https://www.google.fr") class="buttonView"><h1 class="titre-button">Screenshots<img class="chevron" src="images/chevron.png"></h1></a>').appendTo('#mainView');
 }
 
 function addChangelogButton(){
 	var bundleID = $.QueryString['p'];
 	var URL = "?c="+bundleID
-	$('<div onClick=window.location.href("https://www.google.fr") class="buttonView"><h1 class="titre-button">Changelogs<img class="chevron" src="images/chevron.png"></h1></div>').appendTo('#mainView');
+	$('<a href="https://akebu.github.io/cydia/depictions/'+URL+'" class="buttonView"><h1 class="titre-button">Changelogs<img class="chevron" src="images/chevron.png"></h1></a>').appendTo('#mainView');
 }
 
 function getURL(){
