@@ -45,13 +45,13 @@ function addButton(title, ref)
 function addScreenshotButton(){
 	var bundleID = $.QueryString['p'];
 	var URL = "?s="+bundleID
-	$('<a href="changelog.html'+URL+'" class="buttonView"><h1 class="titre-button">Screenshots<img class="chevron" src="images/chevron.png"></h1></a>').appendTo('#mainView');
+	$('<a href="'+URL+'" class="buttonView"><h1 class="titre-button">Screenshots<img class="chevron" src="images/chevron.png"></h1></a>').appendTo('#mainView');
 }
 
 function addChangelogButton(){
 	var bundleID = $.QueryString['p'];
 	var URL = "?c="+bundleID
-	$('<a href="changelog.html'+URL+'" class="buttonView"><h1 class="titre-button">Changelogs<img class="chevron" src="images/chevron.png"></h1></a>').appendTo('#mainView');
+	$('<a href="'+URL+'" class="buttonView"><h1 class="titre-button">Changelogs<img class="chevron" src="images/chevron.png"></h1></a>').appendTo('#mainView');
 }
 
 function getURL(){

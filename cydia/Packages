@@ -12,8 +12,7 @@ MD5sum: 84b1a11edaeb67b8a0510576fe473924
 Description: Contacts in app Switcher, for iOS 7
 Name: ContactSlider (iOS 7)
 Author: Tony Ciroussel <tony.ciroussel@riseup.net>
-Homepage: https://akebu.github.io/cydia/depictions/index.html?p=com.tonyciroussel.contactslider
-Depiction: https://akebu.github.io/cydia/depictions/index.html?p=com.tonyciroussel.contactslider
+Depiction: https://akebu.github.io/cydia/depictions/?p=com.tonyciroussel.contactslider
 Icon: file:///Library/PreferenceBundles/ContactSlider.bundle/ContactSlider@2x.png
 
 Package: com.tonyciroussel.cydelete9
@@ -29,7 +28,6 @@ MD5sum: b5c024eedae9d65faee0a120fcbc4262
 Description: Delete *almost* every applications !
 Name: Cydelete 9
 Author: Tony Ciroussel <tony.ciroussel@riseup.net>
-Homepage: https://akebu.github.io/cydia/depictions/index.html?p=com.tonyciroussel.cydelete9
-Depiction: https://akebu.github.io/cydia/depictions/index.html?p=com.tonyciroussel.cydelete9
+Depiction: https://akebu.github.io/cydia/depictions/?p=com.tonyciroussel.cydelete9
 Icon: file:///Library/PreferenceBundles/Cydelete.bundle/CyDelete.png
 
