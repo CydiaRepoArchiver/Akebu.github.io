@@ -1,3 +1,5 @@
+var bundleID;
+
 function generateView(title, subtitle, description){
 	var titleToAdd = ""
 	var subtitleToAdd = ""
@@ -43,20 +45,18 @@ function addButton(title, ref)
 }
 
 function addScreenshotButton(){
-	var bundleID = $.QueryString['p'];
 	var URL = "?s="+bundleID
 	$('<a href="'+URL+'" class="buttonView"><h1 class="titre-button">Screenshots<img class="chevron" src="images/chevron.png"></h1></a>').appendTo('#mainView');
 }
 
 function addChangelogButton(){
-	var bundleID = $.QueryString['p'];
 	var URL = "?c="+bundleID
 	$('<a href="'+URL+'" class="buttonView"><h1 class="titre-button">Changelogs<img class="chevron" src="images/chevron.png"></h1></a>').appendTo('#mainView');
 }
 
 function getURL(){
 	var URL;
-	var bundleID = $.QueryString['p'];	// Load depiction
+	bundleID = $.QueryString['p'];	// Load depiction
 	if(bundleID != undefined){
 		URL = bundleID + "/info.js";
 		return URL;
@@ -77,4 +77,9 @@ function getURL(){
 
 function loadJS(){
 	$.getScript(getURL(), null);
+}
+
+function showScreenshots(i)
+{
+	$('<center><img src="'+bundleID+'/screenshot/'+i+'"></img></center>').appendTo('#mainView');
 }
