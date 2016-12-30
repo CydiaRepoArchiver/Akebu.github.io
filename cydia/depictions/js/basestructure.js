@@ -51,7 +51,7 @@ function addScreenshotButton(){
 function addChangelogButton(){
 	var bundleID = $.QueryString['p'];
 	var URL = "?c="+bundleID
-	$('<div onClick=window.location.assign("https://www.google.fr") class="buttonView"><h1 class="titre-button">Changelogs<img class="chevron" src="images/chevron.png"></h1></div>').appendTo('#mainView');
+	$('<div onClick=window.location.assign("https://www.google.fr")class="buttonView"><h1 class="titre-button">Changelogs<img class="chevron" src="images/chevron.png"></h1></div>').appendTo('#mainView');
 }
 
 function getURL(){
