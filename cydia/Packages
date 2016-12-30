@@ -6,26 +6,25 @@ Depends: mobilesubstrate, firmware (>= 7.0), firmware (<< 8.0), preferenceloader
 Conflicts: com.a3tweak.auxo2
 Architecture: iphoneos-arm
 Filename: ./debs/com.tonyciroussel.contactslider.deb
-Size: 146274
+Size: 147230
 Installed-Size: 376
-MD5sum: 84b1a11edaeb67b8a0510576fe473924
+MD5sum: 8788d0feb5459727f248a64f95d7c111
 Description: Contacts in app Switcher, for iOS 7
 Name: ContactSlider (iOS 7)
 Author: Tony Ciroussel <tony.ciroussel@riseup.net>
 Homepage: https://akebu.github.io/cydia/depictions/?p=com.tonyciroussel.contactslider
 Depiction: https://akebu.github.io/cydia/depictions/?p=com.tonyciroussel.contactslider
-Icon: file:///Library/PreferenceBundles/ContactSlider.bundle/icon@2x.png
 
 Package: com.tonyciroussel.cydelete9
-Version: 1.0-543+debug
+Version: 1.0-547+debug
 Section: Tweaks
 Maintainer: Tony Ciroussel <tony.ciroussel@riseup.net>
 Depends: mobilesubstrate, sudo, sed, firmware (>= 9.0), preferenceloader
 Architecture: iphoneos-arm
 Filename: ./debs/com.tonyciroussel.cydelete9.deb
-Size: 118114
-Installed-Size: 492
-MD5sum: 7108f329c8e77fa6c78ec1a96bf2b200
+Size: 119702
+Installed-Size: 524
+MD5sum: d1171a23d86bec0da4c8741a8fefbce6
 Description: Delete *almost* every applications !
 Name: Cydelete 9
 Author: Tony Ciroussel <tony.ciroussel@riseup.net>
