@@ -1,3 +1,4 @@
+addView("1.1", "31 Dec. 2016", "- Swedish translation<br>- Fixed permissions")
 addView("1.0 Beta", "30 Dec. 2016", "- Arabic & Dutch translations<br>- Fixed a bug")
 addView("1.0 Beta", "29 Dec. 2016", "- Stable version")
 addView("0.4", "16 Nov. 2016", "- Fixed many things, updated preference pane")
