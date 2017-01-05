@@ -1,4 +1,6 @@
 var bundleID;
+var tweakVersion;
+var lastDate;
 
 function generateView(title, subtitle, description){
 	var titleToAdd = ""
@@ -54,10 +56,42 @@ function addChangelogButton(){
 	$('<a href="'+URL+'" class="buttonView"><h1 class="titre-button">Changelogs<img class="chevron" src="images/chevron.png"></h1></a>').appendTo('#mainView');
 }
 
+function generateWhatsNew(){
+        $.ajax({
+			type: 'GET',
+			async: false,
+			cache: false,
+            url : bundleID+"/changelog.js",
+            dataType: "text",
+            success : function (data) {
+			  var newData = data.slice(0, data.indexOf('\n'))
+			  var textToScript = newData.replace(tweakVersion, "What's new ?")
+			  eval(textToScript)
+            }
+        });
+}
+
+function getInfo(){
+        $.ajax({
+			type: 'GET',
+			async: false,
+			cache: false,
+            url : bundleID+"/changelog.js",
+            dataType: "text",
+            success : function (data) {
+			  var newData = data.slice(0, data.indexOf('\n'))
+			  tweakVersion = newData.match( /"(.*?)"/ )[1];
+			  newData = newData.replace('"'+tweakVersion+'"', "")
+			  lastDate = newData.match( /"(.*?)"/ )[1];
+            }
+        });
+}
+
 function getURL(){
 	var URL;
 	bundleID = $.QueryString['p'];	// Load depiction
 	if(bundleID != undefined){
+		getInfo()
 		URL = bundleID + "/info.js";
 		return URL;
 	}
