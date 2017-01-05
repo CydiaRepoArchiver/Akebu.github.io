@@ -16,15 +16,15 @@ Homepage: https://akebu.github.io/cydia/depictions/?p=com.tonyciroussel.contacts
 Depiction: https://akebu.github.io/cydia/depictions/?p=com.tonyciroussel.contactslider
 
 Package: com.tonyciroussel.cydelete9
-Version: 1.1.2-1+debug
+Version: 1.1.2-2+debug
 Section: Tweaks
 Maintainer: Tony Ciroussel <tony.ciroussel@riseup.net>
 Depends: mobilesubstrate, sudo, sed, firmware (>= 9.0), preferenceloader
 Architecture: iphoneos-arm
 Filename: ./debs/com.tonyciroussel.cydelete9.deb
-Size: 121636
-Installed-Size: 572
-MD5sum: 92960e4174569d0d6f11012210e2efc9
+Size: 122220
+Installed-Size: 588
+MD5sum: a75179ab568c38c9f82618697b22fe2a
 Description: Delete *almost* every applications !
 Name: Cydelete 9
 Author: Tony Ciroussel <tony.ciroussel@riseup.net>
