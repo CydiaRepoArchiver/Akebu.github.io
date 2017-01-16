@@ -1,4 +1,5 @@
-addView("1.1.2", "5 Dec. 2017", "- Added Spanish translation")
+addView("1.1.2", "16 Jan. 2017", "- Fixed control file<br>- Preferences can't be deleted anymore")
+addView("1.1.2", "5 Jan. 2017", "- Added Spanish translation")
 addView("1.1.1", "2 Jan. 2017", "- Traditional chinese and italian translation")
 addView("1.1", "31 Dec. 2016", "- Swedish translation<br>- Fixed permissions")
 addView("1.0.1", "30 Dec. 2016", "- Arabic & Dutch translations<br>- Fixed a bug")

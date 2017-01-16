@@ -1,3 +1,3 @@
-# Mon repo personnel
+# My personal repo
 
-Based on [supermamon's template](https://github.com/supermamon/Reposi3/)
+All the tweaks are intended for testing or my personnal use. Often they are more updated here.
