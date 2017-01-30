@@ -3,7 +3,7 @@ addView("Description", "", description)
 generateWhatsNew()
 
 var object = ["Author", "Category", "Updated","Version","Compatibility","Languages","Dependencies"];
-var key = ["Tony Ciroussel","Tweaks",lastDate, tweakVersion,"iPhone, iPad, iPod with iOS 9.0 or greater<br>Not tested on iOS 10", "English, Français, Español, Italiano, Nederlands, Svenska, العربية, 繁體中文", "mobilesubstrate, sudo, sed, preferenceloader, apt7"];
+var key = ["Tony Ciroussel","Tweaks",lastDate, tweakVersion,"iPhone, iPad, iPod with iOS 9.0 or greater<br>Not tested on iOS 10", "English, Français, Español, Italiano, Nederlands, Svenska, العربية, 繁體中文", "mobilesubstrate, sudo, sed, preferenceloader, apt7, coreutils"];
 addViewWithTable("Informations", object, key)
 
 addScreenshotButton()
