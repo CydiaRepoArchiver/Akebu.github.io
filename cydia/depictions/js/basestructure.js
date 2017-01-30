@@ -115,5 +115,5 @@ function loadJS(){
 
 function showScreenshots(i)
 {
-	$('<center><img src="'+bundleID+'/screenshot/'+i+'"></img></center>').appendTo('#mainView');
+	$('<center><img src="'+bundleID+'/screenshot/'+i+'" style="width:200px; heigth:auto;"></img></center>').appendTo('#mainView');
 }
