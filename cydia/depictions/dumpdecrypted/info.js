@@ -4,3 +4,4 @@ addView("Description", "", description)
 var object = ["Author", "Category", "Updated","Version","Compatibility"];
 var key = ["Stefan Esser","Library","13 Feb. 2014", "1.0","iPhone, iPad, iPod iOS 5 to iOS 9"];
 addViewWithTable("Informations", object, key)
+addButtonWithImage("dumpdecrypted on Github", "https://github.com/stefanesser/dumpdecrypted", "github.png")
