@@ -2,8 +2,6 @@ var description = "<img class='img-center' src='images/fingerprint.png'></img><b
 addView("Description", "", description)
 generateWhatsNew()
 
-addView("Translations", "", "Wanna help to translate ?")
-
 var object = ["Author", "Category", "Updated","Version","Compatibility","Dependencies"];
 var key = ["Tony Ciroussel","Tweaks",lastDate, tweakVersion,"iPhone, iPad, iPod with iOS 9.0 or greater<br>Not tested on iOS 10", "mobilesubstrate"];
 addViewWithTable("Informations", object, key)
