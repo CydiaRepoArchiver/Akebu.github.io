@@ -7,5 +7,6 @@ var key = ["Tony Ciroussel","Tweaks",lastDate, tweakVersion,"iPhone, iPad, iPod 
 addViewWithTable("Informations", object, key)
 
 addChangelogButton()
+addScreenshotButton()
 addButtonWithImage("Sensible on Github", "https://github.com/Akebu/Sensible", "github.png")
 addButtonWithImage("Send me a mail", "mailto:tony.ciroussel@riseup.net", "mail.png")
