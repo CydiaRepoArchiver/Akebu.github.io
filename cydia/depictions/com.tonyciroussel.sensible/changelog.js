@@ -1,3 +1,5 @@
+addView("1.2.1", "24 Feb. 2017", "- Minor fix<br>- Added Arabic translation")
+addView("1.2", "23 Feb. 2017", "- Now Sensible will automatically disable reachability<br>- Fixed default language<br>- Fixed a bug on iPhone 6 or newer")
 addView("1.1", "21 Feb. 2017", "- Clean up code<br>- Bug fixes<br>")
 addView("1.0", "10 Feb. 2017", "- Stable version<br>- Preference pane added<br>- Bug fixes<br>")
 addView("0.1 Alpha", "16 Jan. 2017", "- First version<br>- Sensible is working and tested on iOS 9<br>- Give an sweet haptic feedback<br>I will add a preference pane for the next update")

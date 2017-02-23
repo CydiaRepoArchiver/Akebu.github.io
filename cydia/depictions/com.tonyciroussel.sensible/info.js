@@ -2,8 +2,8 @@ var description = "<img class='img-center' src='images/fingerprint.png'></img><b
 addView("Description", "", description)
 generateWhatsNew()
 
-var object = ["Author", "Category", "Updated","Version","Compatibility","Dependencies"];
-var key = ["Tony Ciroussel","Tweaks",lastDate, tweakVersion,"iPhone, iPad, iPod with iOS 9.0 or greater<br>Not tested on iOS 10", "mobilesubstrate"];
+var object = ["Author", "Category", "Updated","Version","Compatibility","Languages", "Dependencies"];
+var key = ["Tony Ciroussel","Tweaks",lastDate, tweakVersion,"iPhone, iPad, iPod with iOS 9.0 or greater<br>Not tested on iOS 10", "English, Français, العربية", "mobilesubstrate, preferenceloader, activator"];
 addViewWithTable("Informations", object, key)
 
 addChangelogButton()
