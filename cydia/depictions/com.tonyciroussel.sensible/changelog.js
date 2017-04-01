@@ -1,3 +1,4 @@
+addView("1.3", "1 Apr. 2017", "- Activator isn't a dependency anymore")
 addView("1.2.1", "24 Feb. 2017", "- Minor fix<br>- Added Arabic translation")
 addView("1.2", "23 Feb. 2017", "- Now Sensible will automatically disable reachability<br>- Fixed default language<br>- Fixed a bug on iPhone 6 or newer")
 addView("1.1", "21 Feb. 2017", "- Clean up code<br>- Bug fixes<br>")
