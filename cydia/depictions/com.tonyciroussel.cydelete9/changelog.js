@@ -1,3 +1,4 @@
+addView("1.1.5", "2 Apr. 2017", "iOS 10 support")
 addView("1.1.4", "30 Jan. 2017", "- Fixed an error when installing")
 addView("1.1.3", "16 Jan. 2017", "- Fixed control file<br>- Preferences can't be deleted anymore")
 addView("1.1.2", "5 Jan. 2017", "- Added Spanish translation")
