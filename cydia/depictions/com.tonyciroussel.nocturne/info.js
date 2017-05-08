@@ -1,4 +1,4 @@
-var description = "Don't burn your eyes !<br/>Nocturne is a simple tweak that make Apple's applications darker. For now, there are no options to configure<br/><br/><i>Features :</i><br/>Only Preference.app is supported.<br/>Automatically recognize dark images and make it light!<br/>Dynamically change label's colors"
+var description = "How do you deal with headaches from staring at a screen all day ?<br/>Nocturne is a simple tweak that make Apple's applications darker. For now, there are no options to configure<br/><br/><i>Features :</i><br/>Only Preference.app is supported.<br/>Automatically recognize dark images and make it light!<br/>Dynamically change label's colors"
 addView("Description", "", description)
 generateWhatsNew()
 
@@ -8,6 +8,7 @@ addViewWithTable("Informations", object, key)
 
 addScreenshotButton()
 addChangelogButton()
+addButtonWithImage("Nocturne on Github", "https://github.com/Akebu/Nocturne", "github.png")
 
 document.body.style.background = 'rgb(7,18,29)';
 document.getElementById("mainView").style.backgroundColor = 'rgb(7,18,29)';
