@@ -1,4 +1,4 @@
-var description = "Don't burn your eyes too fast !<br/>Nocturne is a simple tweak that make Apple's applications darker. For now, there are no option to configure<br/><br/><i>Features :</i><br/>Only Preference.app is supported.<br/>Automatically recognize dark images and make it light!<br/>Dynamically change label's colors"
+var description = "Don't burn your eyes !<br/>Nocturne is a simple tweak that make Apple's applications darker. For now, there are no options to configure<br/><br/><i>Features :</i><br/>Only Preference.app is supported.<br/>Automatically recognize dark images and make it light!<br/>Dynamically change label's colors"
 addView("Description", "", description)
 generateWhatsNew()
 
