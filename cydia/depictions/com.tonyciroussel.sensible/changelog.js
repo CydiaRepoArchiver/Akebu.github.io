@@ -1,3 +1,4 @@
+addView("1.3.3", "7 June 2017", "- Code cleaning")
 addView("1.3.2", "17 Apr. 2017", "- Fixed respring bug on iOS 9.1")
 addView("1.3.1", "5 Apr. 2017", "- Fixed a memory leak... Oops")
 addView("1.3", "1 Apr. 2017", "- Activator isn't a dependency anymore")
