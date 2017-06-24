@@ -1,3 +1,4 @@
+addView("0.2b", "24 Jun 2017", "- Basic support for all applications<br>Phone.app :<br>- Small glitches on selections<br>    - Contacts list not ready<br>AppStore :<br>    - In progress...<br>Settings.app :<br>    - Mostly works<br>- Minor glitches")
 addView("0.1b", "8 May 2017", "- Beta version<br>- First public release")
 
 document.body.style.background = 'rgb(7,18,29)';
